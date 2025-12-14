@@ -4,6 +4,11 @@
     box-sizing: border-box;
     font-family: "Inter";
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
 header{
     width: 100%;
     display: flex;
@@ -549,6 +554,9 @@ footer{
     }
     .img-box img {
         display: none;
+    }
+    .img-box::after {
+        background: none;
     }
     .content {
         .intro {
