@@ -500,6 +500,7 @@ footer{
     cursor: pointer;
     width: 30px;
     height: 24px;
+    z-index: 999;
 }
 .header-mobile{
     display: inline-block;
