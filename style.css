@@ -4,11 +4,9 @@
     box-sizing: border-box;
     font-family: "Inter";
 }
-
-html {
-    scroll-behavior: smooth;
+html{
+  scroll-behavior: smooth;
 }
-
 header{
     width: 100%;
     display: flex;
@@ -20,7 +18,7 @@ header{
 .header-container{
     width: 95%;
     max-width: 1280px;
-    padding: 28.5px 0;
+    padding: 15px 0;
     display: flex;
     justify-content: space-between;
     gap: 50px;
@@ -43,7 +41,7 @@ header{
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 22px;
     text-align: center;
     color: #000000;
@@ -52,7 +50,7 @@ header{
     content: "";
     position: absolute;
     left: 0;
-    bottom: -8px;
+    bottom: -12px;
     width: 0;
     height: 2px;
     background: #000000;
@@ -500,6 +498,8 @@ footer{
 .header-container-list{
     display: inline-block;
     cursor: pointer;
+    width: 30px;
+    height: 24px;
 }
 .header-mobile{
     display: inline-block;
